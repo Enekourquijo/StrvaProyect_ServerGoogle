@@ -34,5 +34,6 @@ public class GoogleService extends UnicastRemoteObject implements IGoogleServer 
 
 	public void googleRmi() throws RemoteException{
 		System.out.println("Este es el rmi de google!");
+		System.out.println("vkjnvkvnr");
 	}
 }
