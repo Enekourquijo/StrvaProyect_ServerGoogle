@@ -5,6 +5,6 @@ import java.rmi.RemoteException;
 
 public interface IGoogleServer extends Remote  {
 	
-	public void googleRmi() throws RemoteException;
+	public boolean login(String mail, String contr) throws RemoteException;
 
 }
